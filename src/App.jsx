@@ -5,7 +5,6 @@ import Contact from "./Routes/Contact";
 import Detail from "./Routes/Detail";
 import Favs from "./Routes/Favs";
 
-
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 
@@ -21,6 +20,7 @@ function App() {
         <Route path='/favs' element={<Favs/>} />
       </Routes>
       <Footer/>
+      
     </div>
   );
 }
